@@ -1,0 +1,320 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 3.8em;
+  font-family: trebuchet ms;
+  width: 100%;
+  padding-top: 15%;
+  padding-left: 15%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+h3{
+  text-align: center;
+  background-color:#424242; 
+  color: #FFD54F;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.8em;
+}
+
+
+h2{  
+  width: 100%;
+  padding-left: 15%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+span{
+  color: #FFD54F;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+}
+
+#right{
+  height: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+}
+
+.left{
+  border: 1px solid black;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFD54F;
+}
+
+.photo{
+
+}
+.responsive{
+  border-radius : 100%;
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  max-height: 350px;
+  max-width: 350px;
+
+  }
+.table{
+  font-size: 1.3em;
+  margin-bottom: 10%;
+  overflow: none;
+}
+
+.coordonnées{
+  height: 20%;
+  margin: 10%;
+  margin-top: 0;
+  margin-bottom: 10%;
+  text-overflow: none;
+}
+.up{
+  height: 0.5em;
+}
+
+
+.text{
+  height: 30%;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 5%;
+  margin-bottom: 40%;
+}
+.loisirs{
+  height: auto;
+  padding-bottom: 7%;
+  letter-spacing: 15px;
+  text-align: center;
+  color: #424242;
+}
+
+.under{
+  text-decoration-color: #FFD54F;
+}
+
+h4{
+  font-size: 1.8em;
+  margin: 0;
+  width: 600px;
+
+}
+hr{
+  color: #FFD54F;
+  margin-left: 0;
+  margin-top: 0;
+  width: 700px;
+
+}
+.formation{
+  margin-left: 12%;
+  margin-top: 10%;
+}
+li{
+  float: left;
+  margin-top: 0%;
+  width: auto;
+  font-size: 1.1em;
+}
+
+.list{
+  margin-left: 12%;
+  width: 0px;
+  height: 80px;
+  float: left;
+}
+
+h5{
+  font-size: 1.1em;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  height: 15px;
+}
+.infos{
+font-size: 1.3em;
+font-family: trebuchet ms;
+width: 400px;
+height: auto;
+margin-left: 350px;
+}
+.recommandations{
+  width: 300px;
+  font-size: 1.3em;
+  height: auto;
+  float: left;
+}
+.p1{
+  margin-top: 2%;
+}
+.recommandations1{
+  margin-left: 350px;
+  width: 300px;
+  font-size: 1.3em;
+  height: auto;
+}
+@media screen and (max-width:575.98px )
+{
+#main{
+  flex-direction: column;
+  font-size: 0.6em;
+  max-width: 375px;
+  height: auto;
+}
+
+.formation{
+  margin: 0;
+  width: auto;
+}
+.list{
+  margin: 0;
+}
+.left{
+  width: auto;
+}
+#right{
+  width: 375px;
+  font-size: 1.3em;
+}
+.infos{
+  margin-left: 130px;
+  width: 250px;
+}
+.recommandations{
+  width: 200px;
+  font-size: 1.1em;
+}
+.recommandations1{
+  margin-left: 170px;
+  font-size: 1.1em;
+  width: 200px;
+
+}
+h1{
+  padding-top: 0;
+  text-align: left;
+  width: auto;
+}
+hr{
+  width: 100%;
+  max-width: 375px;
+}
+h2{
+  margin-bottom: 5%;
+  width: auto;
+}
+.coordonnées{
+  margin-bottom: 0;
+}
+.responsive{
+  max-height: 200px;
+  max-width: 200px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.photo{
+  padding-left: 13%;
+}
+td{
+  font-size: 1.5em;
+}
+h4{
+  font-size: 1.7em;
+  width: 375px;
+}
+.loisirs{
+  font-size: 1.5em;
+}
+.text{
+  font-size: 1.8em;
+  margin: 0;
+}
+@media screen and (min-width:576px) and (max-width: 1024px)
+{
+#main{
+  display: flex;
+  font-size: 0.6em;
+  max-width: 1024px;
+  height: auto;
+}
+
+.formation{
+  margin: 0;
+  width: auto;
+}
+.list{
+  margin: 0;
+}
+.left{
+  width: auto;
+}
+#right{
+  width: 768px;
+  font-size: 1.3em;
+}
+.infos{
+  margin-left: 260px;
+  width: 500px;
+}
+.recommandations{
+  width: 400px;
+  font-size: 1.1em;
+}
+.recommandations1{
+  margin-left: 340px;
+  font-size: 1.1em;
+
+}
+h1{
+  padding-top: 0;
+  text-align: left;
+}
+hr{
+  width: 
+  max-width: 1024px;
+  min-width: 768px;
+}
+h2{
+  margin-bottom: 5%;
+}
+.coordonnées{
+  margin-bottom: 0;
+}
+.responsive{
+  max-height: 400px;
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.photo{
+  padding-left: 13%;
+}
+td{
+  font-size: 1.5em;
+}
+h4{
+  font-size: 1.7em;
+}
+.loisirs{
+  font-size: 1.5em;
+}
+.text{
+  font-size: 1.8em;
+  margin: 0;
+}
