@@ -1,9 +1,10 @@
-body{
+
+body{/* Corps du site*/
   margin:0;
   padding:0;
 }
 
-h1{
+h1{/*Nom et Prénom*/
   font-weight: lighter;
   font-size: 3.8em;
   font-family: trebuchet ms;
@@ -94,7 +95,6 @@ span{
   font-size: 1.2em;
   text-align: center;
   margin: 5%;
-  margin-bottom: 40%;
 }
 .loisirs{
   height: auto;
@@ -125,9 +125,8 @@ hr{
   margin-left: 12%;
   margin-top: 10%;
 }
-li{
+i{
   float: left;
-  margin-top: 0%;
   width: auto;
   font-size: 1.1em;
 }
@@ -135,8 +134,8 @@ li{
 .list{
   margin-left: 12%;
   width: 0px;
-  height: 80px;
-  float: left;
+  height: auto;
+  float: 
 }
 
 h5{
@@ -167,13 +166,14 @@ margin-left: 350px;
   font-size: 1.3em;
   height: auto;
 }
-@media screen and (max-width:575.98px )
+
+@media screen  and (max-width:575.98px )
 {
 #main{
   flex-direction: column;
   font-size: 0.6em;
-  max-width: 375px;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .formation{
@@ -187,7 +187,7 @@ margin-left: 350px;
   width: auto;
 }
 #right{
-  width: 375px;
+  width: auto;
   font-size: 1.3em;
 }
 .infos{
@@ -208,10 +208,14 @@ h1{
   padding-top: 0;
   text-align: left;
   width: auto;
+  display: flex;
+  flex-direction: column;
+
 }
 hr{
-  width: 100%;
+  width: auto;
   max-width: 375px;
+  
 }
 h2{
   margin-bottom: 5%;
@@ -237,6 +241,9 @@ h4{
   font-size: 1.7em;
   width: 375px;
 }
+h5{
+  width: auto;
+}
 .loisirs{
   font-size: 1.5em;
 }
@@ -244,7 +251,7 @@ h4{
   font-size: 1.8em;
   margin: 0;
 }
-@media screen and (min-width:576px) and (max-width: 1024px)
+@media screen (min-width:576px) and (max-width: 991.98px)
 {
 #main{
   display: flex;
@@ -318,3 +325,5 @@ h4{
   font-size: 1.8em;
   margin: 0;
 }
+
+@media screen (min-width: 992px)
