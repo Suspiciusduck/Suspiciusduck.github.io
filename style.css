@@ -2,6 +2,7 @@
 body{/* Corps du site*/
   margin:0;
   padding:0;
+  border:1px solid black;
 }
 
 h1{/*Nom et Prénom*/
@@ -97,10 +98,11 @@ span{
   margin: 5%;
 }
 .loisirs{
-  height: auto;
-  padding-bottom: 7%;
-  letter-spacing: 15px;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  padding-left: 15%;
+  
   color: #424242;
 }
 
@@ -167,7 +169,7 @@ margin-left: 350px;
   height: auto;
 }
 
-@media screen  and (max-width:575.98px )
+@media (min-width: 375px) and (max-width:575.98px )
 {
 #main{
   flex-direction: column;
