@@ -41,6 +41,10 @@ span{
   height: 100%;
   width: 100%;
   display: flex;
+  max-width: 1200px;
+  border:1px solid black;
+  margin-left: auto;
+  margin-right:auto;
 
 }
 
@@ -71,20 +75,19 @@ span{
   overflow: hidden;
   max-height: 350px;
   max-width: 350px;
+  vertical-align: center;
 
   }
 .table{
   font-size: 1.3em;
-  margin-bottom: 10%;
   overflow: none;
+  align-items: center;
+
 }
 
 .coordonnées{
-  height: 20%;
-  margin: 10%;
-  margin-top: 0;
-  margin-bottom: 10%;
-  text-overflow: none;
+  align-items: center;
+  width: auto;
 }
 .up{
   height: 0.5em;
@@ -146,6 +149,10 @@ h5{
   margin-top: 0%;
   height: 15px;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 .infos{
 font-size: 1.3em;
 font-family: trebuchet ms;
@@ -169,7 +176,7 @@ margin-left: 350px;
   height: auto;
 }
 
-@media (min-width: 375px) and (max-width:575.98px )
+@media (max-width:1200px )
 {
 #main{
   flex-direction: column;
@@ -187,6 +194,7 @@ margin-left: 350px;
 }
 .left{
   width: auto;
+  text-align: center;
 }
 #right{
   width: auto;
@@ -234,7 +242,7 @@ h2{
   margin: auto;
 }
 .photo{
-  padding-left: 13%;
+  
 }
 td{
   font-size: 1.5em;
@@ -253,7 +261,7 @@ h5{
   font-size: 1.8em;
   margin: 0;
 }
-@media screen (min-width:576px) and (max-width: 991.98px)
+@media screen (min-width:px)
 {
 #main{
   display: flex;
