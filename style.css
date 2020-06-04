@@ -9,7 +9,7 @@ h1{/*Nom et Prénom*/
   font-weight: lighter;
   font-size: 3.8em;
   font-family: trebuchet ms;
-  width: 100%;
+  width: auto;
   padding-top: 15%;
   padding-left: 15%;
   margin-top: 0%;
@@ -33,9 +33,7 @@ h2{
   margin-top: 0%;
   margin-bottom: 0%;
 }
-span{
-  color: #FFD54F;
-}
+
 
 #main{
   height: 100%;
@@ -65,26 +63,14 @@ span{
   background-color: #FFD54F;
 }
 
-.photo{
-
-}
 .responsive{
-  border-radius : 100%;
-  width: 100%;
-  height:100%;
-  overflow: hidden;
-  max-height: 350px;
-  max-width: 350px;
-  vertical-align: center;
-
-  }
-.table{
-  font-size: 1.3em;
-  overflow: none;
-  align-items: center;
-
+  align-items: flex-start;
+  justify-content: center;
+  clip-path: circle(75px at center);
+  max-height: 200px;
+  max-width: 200px;
+  margin-left: 22%;
 }
-
 .coordonnées{
   align-items: center;
   width: auto;
@@ -92,8 +78,15 @@ span{
 .up{
   height: 0.5em;
 }
+.prenom{
+  color:#FFD54F;
+}
+address{
+font-size: 1.2em;
+font-style: normal;
+margin-left: 12%;
 
-
+}
 .text{
   height: 30%;
   font-size: 1.2em;
@@ -105,10 +98,10 @@ span{
   justify-content: space-between;
   width: 65%;
   padding-left: 15%;
-  
   color: #424242;
 }
 
+}
 .under{
   text-decoration-color: #FFD54F;
 }
@@ -123,7 +116,7 @@ hr{
   color: #FFD54F;
   margin-left: 0;
   margin-top: 0;
-  width: 700px;
+  width: 
 
 }
 .formation{
@@ -181,8 +174,8 @@ margin-left: 350px;
 #main{
   flex-direction: column;
   font-size: 0.6em;
-  width: auto;
-  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 .formation{
@@ -197,39 +190,56 @@ margin-left: 350px;
   text-align: center;
 }
 #right{
-  width: auto;
+  display: inline;
+  flex-direction: row;
   font-size: 1.3em;
 }
 .infos{
-  margin-left: 130px;
-  width: 250px;
+  margin-left: 
+  width: auto;
+}
+#right1{
+  width: auto;
+}
+.prenom{
+  color: black;
 }
 .recommandations{
-  width: 200px;
   font-size: 1.1em;
 }
 .recommandations1{
-  margin-left: 170px;
+  margin-left:
   font-size: 1.1em;
-  width: 200px;
 
 }
 h1{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  font-size: 3.5em;
+  text-align: center;
+  top: 8.3%;
   padding-top: 0;
-  text-align: left;
-  width: auto;
-  display: flex;
-  flex-direction: column;
+  padding-left: 0;
 
+
+}
+address{
+  margin: auto;
 }
 hr{
   width: auto;
-  max-width: 375px;
   
 }
 h2{
-  margin-bottom: 5%;
-  width: auto;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  top: 10.5%;
+  padding-top: 0;
+  padding-left: 0;
+  font-size: 2.2em;
 }
 .coordonnées{
   margin-bottom: 0;
@@ -240,9 +250,10 @@ h2{
   width: 100%;
   height: 100%;
   margin: auto;
+  margin-bottom: 100px;
 }
-.photo{
-  
+address{
+  font-size: 1.8em;
 }
 td{
   font-size: 1.5em;
@@ -256,6 +267,9 @@ h5{
 }
 .loisirs{
   font-size: 1.5em;
+  margin: auto;
+  padding: 0;
+
 }
 .text{
   font-size: 1.8em;
@@ -269,6 +283,7 @@ h5{
   max-width: 1024px;
   height: auto;
 }
+
 
 .formation{
   margin: 0;
@@ -285,8 +300,9 @@ h5{
   font-size: 1.3em;
 }
 .infos{
-  margin-left: 260px;
-  width: 500px;
+  display: inline-block;
+  margin-left: auto;
+  width: auto;
 }
 .recommandations{
   width: 400px;
