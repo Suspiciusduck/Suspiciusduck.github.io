@@ -224,6 +224,9 @@ h1{
 
 
 }
+.fa-marker, .fa-dot-circle, .fa-briefcase, .fa-graduation-cap{
+  color: #FFD54F; 
+}
 address{
   margin: auto;
 }
