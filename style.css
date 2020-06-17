@@ -8,7 +8,7 @@ body{/* Corps du site*/
 h1{/*Nom et Prénom*/
   font-weight: lighter;
   font-size: 3.8em;
-  font-family: trebuchet ms;
+  font-family: "trebuchet ms";
   width: auto;
   padding-top: 15%;
   padding-left: 15%;
@@ -40,7 +40,7 @@ h2{
   width: 1200px; 
   margin-left: auto;
   margin-right:auto;
-  font-family: trebuchet ms;
+  font-family: "trebuchet ms";
 
 }
 
@@ -94,7 +94,6 @@ line-height: 130%;
   color: #424242;
 }
 
-}
 .under{
   text-decoration-color: #FFD54F;
 }
@@ -370,5 +369,3 @@ h2{
   font-size: 1.3em;
 
 }
-
-@media screen (min-width: 992px)
