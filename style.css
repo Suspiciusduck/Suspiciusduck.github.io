@@ -37,6 +37,7 @@ h2{
 
 #main{
   display: flex;
+  position: relative;
   width: 1200px; 
   margin-left: auto;
   margin-right:auto;
@@ -183,6 +184,7 @@ a{
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .recommandations1{
