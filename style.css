@@ -37,19 +37,18 @@ h2{
 
 #main{
   display: flex;
-  max-width: 1200px; 
-  border:1px solid black;
+  width: 1200px; 
   margin-left: auto;
   margin-right:auto;
+  font-family: trebuchet ms;
 
 }
 
 .left{
-  border: 1px solid black;
   width: 80%;
-  height: auto;
   display: flex;
   flex-direction: column;
+  font-size: 0.9em;
   background-color: #FFD54F;
 }
 
@@ -117,8 +116,10 @@ hr{
   margin-left: 12%;
   margin-top: 10%;
 }
-
-
+time{
+  width: 140px;
+  display: inline-block;
+}
 .list{
   margin-left: 12%;
   margin-top: 20px;
@@ -132,7 +133,13 @@ hr{
   float: left;
   margin-right: 18px;
   margin-top: 12px;
+  color: #FFD54F;
 }
+
+.fa-circle{
+font-size:0.8em;
+}
+
 .fa-biking, .fa-basketball-ball, .fa-table-tennis{
   margin-bottom: 2%;
   border: 1px solid black;
@@ -152,7 +159,6 @@ a{
 }
 .infos{
 font-size: 1.2em;
-font-family: trebuchet ms;
 width: 70%;
 margin-left: 5%;
 margin-top: 20px;
@@ -180,18 +186,24 @@ margin-top: 20px;
   font-size: 0.6em;
   width: 100%;
   position: relative;
+  border:none;
 }
 
 .fa-biking, .fa-basketball-ball, .fa-table-tennis{
   margin-left: 5%;
   margin-right: 15%;
-  margin-bottom: 5%;
+  margin-bottom: 0;
 }
 .formation{
   margin: 0;
   width: auto;
 }
 #loisirs1{
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+  height: 120px;
+  background-color: #FFD54F;
 
 
 }
@@ -219,13 +231,17 @@ margin-top: 20px;
   color: black;
 }
 
+time{
+  width: auto;
+  padding-top: 10px;
+}
 h1{
   position: absolute;
   width: 100%;
   height: auto;
-  font-size: 3.5em;
+  font-size: 3em;
   text-align: center;
-  top: 10%;
+  top: 170px;
   padding-top: 0;
   padding-left: 0;
 
@@ -236,9 +252,12 @@ h1{
 
 address{
   margin: auto;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 hr{
   width: 100%;
+  margin-bottom: 0;
   
 }
 h2{
@@ -246,25 +265,28 @@ h2{
   width: 100%;
   height: auto;
   text-align: center;
-  top: 12.5%;
+  top: 210px;
   padding-top: 0;
   padding-left: 0;
-  font-size: 2.2em;
+  font-size: 2em;
 }
 .coordonnées{
   margin-bottom: 0;
 }
 .responsive{
-  width: 100%;
-  height: 200px;
+  width: 170px;
+  height: 170px;
   margin: auto;
   margin-bottom: 100px;
+  clip-path: circle(65px at center);
 }
 #recommandations2{
   justify-content: flex-start;
+  margin-top: 10px
 }
 .recommandations{
   margin-left: 20px;
+
 }
 .recommandations1{
   margin-left: 20%;
@@ -275,6 +297,7 @@ h2{
 }
 h3{
   font-size: 2em;
+  margin:0;
 }
 address{
   font-size: 1.8em;
@@ -293,13 +316,16 @@ h5{
 }
 .loisirs{
   font-size: 1.5em;
-  margin: auto;
-  padding: 0;
+  margin-top: 25px;
+  padding-left: 20px;
+  margin-top: 15px;
 
 }
 .text{
   font-size: 1.8em;
-  margin: 0;
+  margin: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .list{
   width: auto;
@@ -309,18 +335,40 @@ h5{
   margin-left: 20px;
   width: auto;
 }
+
+.fa-dot-circle, .fa-circle{
+  margin-right: 5px;
+}
 @media(max-width:572px)
 {
 #recommandations2{
-display: flex;
-flex-direction: column;
-line-height: 150%;
+  display: flex;
+  flex-direction: column;
+  line-height: 150%;
 }
 
 .recommandations1{
   margin-left: 20px;
   margin-top: 20px;
 }
+.responsive{
+  clip-path: circle(60px at center);
+  width: 150px;
+  height: 150px;
+}
+h1{
+  top: 150px;
+  font-size: 2.7em;
+}
 
+h2{
+  top: 190px;
+  font-size: 2em;
+}
+
+.loisirs{
+  font-size: 1.3em;
+
+}
 
 @media screen (min-width: 992px)
