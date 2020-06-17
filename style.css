@@ -60,28 +60,34 @@ h2{
   max-width: 200px;
   margin-left: 22%;
 }
+
 .coordonnées{
   align-items: center;
   width: auto;
 }
+
 .up{
   height: 0.5em;
 }
+
 .prenom{
   color:#FFD54F;
 }
+
 address{
 font-size: 1.3em;
 font-style: normal;
 margin-left: 12%;
 line-height: 130%;
 }
+
 .text{
   height: 35%;
   font-size: 1.3em;
   text-align: center;
   margin: 5%;
 }
+
 #droite, #droite1, #droite2, #droite3, #droite4{
   display: flex;
   flex-direction: row;
@@ -102,32 +108,38 @@ h4{
   font-size: 1.8em;
   margin: 0; 
 }
+
 p{
   margin: 0;
 }
+
 hr{
   color: #FFD54F;
   margin-left: 0;
   margin-top: 0;
-
 }
+
 .formation{
   margin-left: 12%;
   margin-top: 10%;
 }
+
 .date{
   width: 140px;
   display: inline-block;
 }
+
 .list{
   margin-left: 12%;
   margin-top: 20px;
   font-size: 1.2em;
   width: 30%;
 }
+
 .fa-marker, .fa-dot-circle, .fa-briefcase, .fa-graduation-cap{
   color: #FFD54F; 
 }
+
 .fa-dot-circle, .fa-circle{
   float: left;
   margin-right: 18px;
@@ -149,29 +161,33 @@ font-size:0.8em;
 h5{  margin: 0;
   font-size: 1.3em;
 }
+
 em{
   line-height: 200%;
 }
+
 a{
   text-decoration: none;
   color: black;
 }
+
 .infos{
-font-size: 1.2em;
-width: 70%;
-margin-left: 5%;
-margin-top: 20px;
+  font-size: 1.2em;
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 20px;
 }
+
 #recommandations{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 20px;
 }
+
 .recommandations1{
   font-size: 1.3em;
   margin-left: 2%;
-
 }
 
 .recommandations2{
@@ -180,6 +196,7 @@ margin-top: 20px;
 
 @media (max-width:1200px )
 {
+
 #main{
   flex-direction: column;
   font-size: 0.6em;
@@ -193,19 +210,20 @@ margin-top: 20px;
   margin-right: 15%;
   margin-bottom: 0;
 }
+
 .formation{
   margin: 0;
   width: auto;
 }
+
 #loisirs1{
   position: absolute;
   bottom: -120px;
   width: 100%;
   height: 120px;
   background-color: #FFD54F;
-
-
 }
+
 .list{
   margin: 0;
   margin-top: 15px;
@@ -214,18 +232,22 @@ margin-top: 20px;
   width: auto;
   text-align: center;
 }
+
 #right{
   display: inline;
   flex-direction: row;
   font-size: 1.3em;
 }
+
 .infos{
   width: auto;
   margin-top: 5px;
 }
+
 #right1{
   width: auto;
 }
+
 .prenom{
   color: black;
 }
@@ -234,6 +256,7 @@ margin-top: 20px;
   width: auto;
   padding-top: 10px;
 }
+
 h1{
   position: absolute;
   width: 100%;
@@ -243,8 +266,8 @@ h1{
   top: 170px;
   padding-top: 0;
   padding-left: 0;
-
 }
+
 .fa-marker, .fa-dot-circle, .fa-briefcase, .fa-graduation-cap{
   color: #FFD54F; 
 }
@@ -254,11 +277,13 @@ address{
   padding-bottom: 15px;
   padding-top: 15px;
 }
+
 hr{
   width: 100%;
   margin-bottom: 0;
   
 }
+
 h2{
   position: absolute;
   width: 100%;
@@ -269,9 +294,11 @@ h2{
   padding-left: 0;
   font-size: 2em;
 }
+
 .coordonnées{
   margin-bottom: 0;
 }
+
 .responsive{
   width: 170px;
   height: 170px;
@@ -279,40 +306,50 @@ h2{
   margin-bottom: 100px;
   clip-path: circle(65px at center);
 }
+
 #recommandations{
   justify-content: flex-start;
   margin-top: 10px
 }
+
 .recommandations1{
   margin-left: 20px;
 
 }
+
 .recommandations2{
   margin-left: 20%;
 }
+
 #droite, #droite1, #droite2, #droite3, #droite4{
   display: flex;
   flex-direction: column;
 }
+
 h3{
   font-size: 2em;
   margin:0;
 }
+
 address{
   font-size: 1.8em;
 }
+
 td{
   font-size: 1.5em;
 }
+
 h4{
   font-size: 1.7em;
   margin-top: 2%;
   margin-left: 20px;
   width: 90%;
 }
+
 h5{
   width: auto;
 }
+
 .loisirs{
   font-size: 1.5em;
   margin-top: 25px;
@@ -320,16 +357,19 @@ h5{
   margin-top: 15px;
 
 }
+
 .text{
   font-size: 1.8em;
   margin: auto;
   padding-bottom: 10px;
   padding-top: 10px;
 }
+
 .list{
   width: auto;
   margin-left: 20px;
 }
+
 .infos{
   margin-left: 20px;
   width: auto;
@@ -338,8 +378,10 @@ h5{
 .fa-dot-circle, .fa-circle{
   margin-right: 5px;
 }
+
 @media(max-width:572px)
 {
+
 #recommandations{
   display: flex;
   flex-direction: column;
@@ -350,11 +392,13 @@ h5{
   margin-left: 20px;
   margin-top: 20px;
 }
+
 .responsive{
   clip-path: circle(60px at center);
   width: 150px;
   height: 150px;
 }
+
 h1{
   top: 150px;
   font-size: 2.7em;
@@ -367,5 +411,4 @@ h2{
 
 .loisirs{
   font-size: 1.3em;
-
 }
