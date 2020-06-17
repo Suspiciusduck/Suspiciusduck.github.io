@@ -82,7 +82,7 @@ line-height: 130%;
   text-align: center;
   margin: 5%;
 }
-#droite{
+#droite, #droite1, #droite2, #droite3, #droite4{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -116,7 +116,7 @@ hr{
   margin-left: 12%;
   margin-top: 10%;
 }
-time{
+.date{
   width: 140px;
   display: inline-block;
 }
@@ -163,19 +163,19 @@ width: 70%;
 margin-left: 5%;
 margin-top: 20px;
 }
-#recommandations2{
+#recommandations{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 20px;
 }
-.recommandations{
+.recommandations1{
   font-size: 1.3em;
   margin-left: 2%;
 
 }
 
-.recommandations1{
+.recommandations2{
   font-size: 1.3em;
 }
 
@@ -231,7 +231,7 @@ margin-top: 20px;
   color: black;
 }
 
-time{
+.date{
   width: auto;
   padding-top: 10px;
 }
@@ -280,18 +280,18 @@ h2{
   margin-bottom: 100px;
   clip-path: circle(65px at center);
 }
-#recommandations2{
+#recommandations{
   justify-content: flex-start;
   margin-top: 10px
 }
-.recommandations{
+.recommandations1{
   margin-left: 20px;
 
 }
-.recommandations1{
+.recommandations2{
   margin-left: 20%;
 }
-#droite{
+#droite, #droite1, #droite2, #droite3, #droite4{
   display: flex;
   flex-direction: column;
 }
@@ -341,13 +341,13 @@ h5{
 }
 @media(max-width:572px)
 {
-#recommandations2{
+#recommandations{
   display: flex;
   flex-direction: column;
   line-height: 150%;
 }
 
-.recommandations1{
+.recommandations2{
   margin-left: 20px;
   margin-top: 20px;
 }
