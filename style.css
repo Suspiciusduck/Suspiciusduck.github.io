@@ -1,11 +1,11 @@
-
-body{/* Corps du site*/
+/* Corps du site*/
+body{
   margin:0;
   padding:0;
   border:1px solid black;
 }
-
-h1{/*Nom et Prénom*/
+/* Régions Globales*/
+h1{
   font-weight: lighter;
   font-size: 3.8em;
   font-family: "trebuchet ms";
@@ -27,18 +27,18 @@ h3{
 }
 
 
-h2{  
-  width: 100%;
-  padding-left: 15%;
+h2{   
+  padding-left: 
   margin-top: 0%;
   margin-bottom: 0%;
+  margin-left: 15%;
 }
 
 
 #main{
   display: flex;
-  position: relative;
-  width: 1200px; 
+  
+  max-width: 1300px;
   margin-left: auto;
   margin-right:auto;
   font-family: "trebuchet ms";
@@ -51,15 +51,15 @@ h2{
   flex-direction: column;
   font-size: 0.9em;
   background-color: #FFD54F;
-}
-
+} 
+/* Fin de Régions*/
+/* Partie gauche*/
 .responsive{
-  align-items: flex-start;
-  justify-content: center;
   clip-path: circle(75px at center);
   height: 210px;
   max-width: 200px;
-  margin-left: 22%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .coordonnées{
@@ -83,12 +83,14 @@ line-height: 130%;
 }
 
 .text{
-  height: 35%;
+  height: 38%;
   font-size: 1.3em;
   text-align: center;
+  line-height: 27px;
   margin: 5%;
 }
-
+/*  fin partie gauche*/
+/*  Partie Droite*/
 #droite, #droite1, #droite2, #droite3, #droite4{
   display: flex;
   flex-direction: row;
@@ -118,6 +120,7 @@ hr{
   color: #FFD54F;
   margin-left: 0;
   margin-top: 0;
+  width: 95%;
 }
 
 .formation{
@@ -195,8 +198,9 @@ a{
 .recommandations2{
   font-size: 1.3em;
 }
-
-@media (max-width:1200px )
+/* fin de partie droite*/
+/*  Début responsive jusqu'à 1024px*/
+@media (max-width:1024px )
 {
 
 #main{
@@ -233,6 +237,7 @@ a{
 .left{
   width: auto;
   text-align: center;
+  max-width: auto;
 }
 
 #right{
@@ -281,8 +286,9 @@ address{
 }
 
 hr{
-  width: 100%;
+  width: 90%;
   margin-bottom: 0;
+  margin-left: 5px;
   
 }
 
@@ -291,10 +297,11 @@ h2{
   width: 100%;
   height: auto;
   text-align: center;
-  top: 210px;
+  top: 200px;
   padding-top: 0;
   padding-left: 0;
   font-size: 2em;
+  margin-left: 0;
 }
 
 .coordonnées{
@@ -380,8 +387,9 @@ h5{
 .fa-dot-circle, .fa-circle{
   margin-right: 5px;
 }
-
-@media(max-width:572px)
+/*  Fin responsive jusqu'à 1024px*/
+/*  Début responsive jusqu'à 576px*/
+@media(max-width:576px)
 {
 
 #recommandations{
@@ -403,14 +411,15 @@ h5{
 
 h1{
   top: 150px;
-  font-size: 2.7em;
+  font-size: 2.5em;
 }
 
 h2{
-  top: 190px;
-  font-size: 2em;
+  top: 180px;
+  font-size: 1.8em;
 }
 
 .loisirs{
   font-size: 1.3em;
 }
+/*  Fin responsive jusqu'à 576px*/
