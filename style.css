@@ -28,7 +28,6 @@ h3{
 
 
 h2{   
-  padding-left: 
   margin-top: 0%;
   margin-bottom: 0%;
   margin-left: 15%;
@@ -237,7 +236,6 @@ a{
 .left{
   width: auto;
   text-align: center;
-  max-width: auto;
 }
 
 #right{
@@ -297,7 +295,7 @@ h2{
   width: 100%;
   height: auto;
   text-align: center;
-  top: 200px;
+  top: 210px;
   padding-top: 0;
   padding-left: 0;
   font-size: 2em;
@@ -415,7 +413,7 @@ h1{
 }
 
 h2{
-  top: 180px;
+  top: 185px;
   font-size: 1.8em;
 }
 
