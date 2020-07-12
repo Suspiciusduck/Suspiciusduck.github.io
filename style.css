@@ -54,9 +54,10 @@ h2{
 /* Fin de Régions*/
 /* Partie gauche*/
 .responsive{
-  clip-path: circle(75px at center);
-  height: 210px;
-  max-width: 200px;
+  border-radius: 50%;
+  height: 170px;
+  max-width: 160px;
+  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
 }
@@ -268,7 +269,7 @@ h1{
   height: auto;
   font-size: 3em;
   text-align: center;
-  top: 170px;
+  top: 150px;
   padding-top: 0;
   padding-left: 0;
 }
@@ -295,7 +296,7 @@ h2{
   width: 100%;
   height: auto;
   text-align: center;
-  top: 210px;
+  top: 190px;
   padding-top: 0;
   padding-left: 0;
   font-size: 2em;
@@ -307,11 +308,10 @@ h2{
 }
 
 .responsive{
-  width: 170px;
-  height: 170px;
+  width: 140px;
+  height: 140px;
   margin: auto;
   margin-bottom: 100px;
-  clip-path: circle(65px at center);
 }
 
 #recommandations{
@@ -402,9 +402,8 @@ h5{
 }
 
 .responsive{
-  clip-path: circle(60px at center);
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
 }
 
 h1{
